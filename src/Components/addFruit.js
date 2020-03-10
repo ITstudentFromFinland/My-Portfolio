@@ -22,7 +22,9 @@ export default class AddFruit extends React.Component {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(this.state)
-    });
+    })
+    .then(response => response.json())
+    .then(newFruit => this.props.onFruitAdded(newFruit))
 }
 
     render() {

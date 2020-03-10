@@ -31,7 +31,9 @@ export default function Fruits(props) {
     
     return (
         <React.Fragment>
-          <AddFruit />
+          <AddFruit onFruitAdded={
+              (newFruit) => setFruits([...fruits, newFruit])
+              } />
         <div className="fruits">
             {fruitElements}
         </div>
