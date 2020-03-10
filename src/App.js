@@ -39,9 +39,6 @@ function App() {
     </Switch>
     </Router>
     );
-  
-  return ( <Cars listOfCars={cars} />
-  );
 }
 
 export default App;
