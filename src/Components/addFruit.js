@@ -33,7 +33,12 @@ export default class AddFruit extends React.Component {
                 <form>
                     <div>
                         <label>Tyyppi:</label>
-                        <input type="text" name="type" onChange={(event) => this.handleInputChange(event)}/>
+                        <select
+                        name="type" onChange={(event) => this.handleInputChange(event)}>
+                            <option value="apple">Omena</option>
+                            <option value="pear">Päärynä</option>
+                            <option value="orange">Appelsiini</option>
+                        </select>
                     </div>
                     <div>
                         <label>Nimi:</label>
