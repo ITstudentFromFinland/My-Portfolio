@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'  
 import './App.css';
 
 import NavBar from "./Components/NavBar";
@@ -22,13 +22,15 @@ function App() {
   return (
     <Router>
       <NavBar />
-    <Switch>
-    <Route exact path="/" component={Home}/>
-    <Route path="/cars"><Cars listOfCars={cars}/></Route>
-    <Route render="/fruits"><Fruits /></Route>
-    </Switch>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/fruits"><Fruits /></Route>
+        <Route path="/cars"><Cars listOfCars={cars}/></Route>
+        <Route render={() => "404 - Not Found!"} />
+      </Switch>
     </Router>
-    );
+  );
 }
+
 
 export default App;

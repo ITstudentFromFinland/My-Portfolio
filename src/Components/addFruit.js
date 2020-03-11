@@ -27,15 +27,6 @@ export default class AddFruit extends React.Component {
         .then(newFruit => this.props.onFruitAdded(newFruit));
     }
 
-    onDelete = (id) => {
-        fetch('api/fruits/$(id)', {
-            method: 'DELETE'
-        })
-.then(deletedFruit =>
-    setFruits(fruits.filter(fruit => fruit.id !== id))
-    );
-    }
-
     render() {
         return (
             <React.Fragment>
