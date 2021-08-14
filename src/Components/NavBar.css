@@ -1,5 +1,5 @@
 .nav-bar {
-    background-color: darkblue;
+    background-color: turquoise;
     overflow: auto;
 }
 
@@ -11,7 +11,7 @@
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
-    width: 230px;
+    width: 450px;
 }
 
 .nav-bar li {

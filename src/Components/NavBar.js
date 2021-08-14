@@ -7,13 +7,16 @@ export default function NavBar(props) {
         <div className="nav-bar">
         <ul>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Etusivu</Link>
             </li>
             <li>
-                <Link to="./cars">Cars</Link>
+                <Link to="./about-me">Tietoa minusta</Link>
             </li>
             <li>
-                <Link to="./fruits">Fruits</Link>
+                <Link to="./my-cv">CV:ni</Link>
+            </li>
+            <li>
+                <Link to="./my-projects">Ohjelmointiprojektini</Link>
             </li>
         </ul>
         </div>

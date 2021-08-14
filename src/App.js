@@ -3,20 +3,11 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
 
 import NavBar from "./Components/NavBar";
-import Fruits from "./Components/Fruits";
-import Cars from "./Components/Cars";
+import AboutMe from "./Components/AboutMe";
+import CV from "./Components/CV";
+import Projects from "./Components/Projects";
 
-const Home = (props) => <div>Tämä on koti</div>
-
-const cars = [
-  {"id": 1, "make": "ford", "model": "Mustang"},
-  {"id": 2, "make": "honda", "model": "Civic"},
-  {"id": 3, "make": "skoda", "model": "Octavia"},
-  {"id": 4, "make": "honda", "model": "Accord"},
-  {"id": 5, "make": "skoda", "model": "Fabia"},
-  {"id": 6, "make": "ford", "model": "T"},
-  {"id": 7, "make": "volvo", "model": "V40"}
-]
+const Home = (props) => <header class="header"><h1>Tervetuloa portfoliooni!</h1></header>
 
 function App() {
   return (
@@ -24,9 +15,9 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/fruits"><Fruits /></Route>
-        <Route path="/cars"><Cars listOfCars={cars}/></Route>
-        <Route render={() => "404 - Not Found!"} />
+        <Route path="/about-me"><AboutMe /></Route>
+        <Route path="/my-cv"><CV /></Route>
+        <Route path="/my-projects"><Projects /></Route>
       </Switch>
     </Router>
   );
