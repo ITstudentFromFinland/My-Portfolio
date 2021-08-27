@@ -5,9 +5,10 @@ import "./Projects.css";
 export default function Projects(props) {  
     
     return (
-        <body><h1 class="projects-header">Projektini</h1>
+        <body><h1 class="projects-header">Projektit</h1>
 
         <div>
+        <h3>Sovellus | Käytetyt ohjelmointikielet</h3>
             <ul>
                 <li><a href="https://github.com/ITstudentFromFinland/MobiDogi">MobiDogi</a> (Android-mobiilisovellus koirien ongelmakoulutukseen, opinnäytetyö)</li>
             <br></br>
