@@ -18,7 +18,11 @@ export default function NavBar(props) {
             <li>
                 <Link to="./my-projects">Ohjelmointiprojektini</Link>
             </li>
+            <li>
+                <Link to="./contact">Ota yhteyttä</Link>
+            </li>
         </ul>
         </div>
     );
 }
+
