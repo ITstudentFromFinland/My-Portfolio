@@ -2,25 +2,17 @@ import React from "react";
 
 import "../Components/CV.css";
 
+import CV_LP from "../../src/Components/CV_LeenaPalsio.pdf";
+
 export default function CV(props) {  
     
     return (
       <body>
-      <div>
+      <div className="CV">
         <br></br>
-        <iframe src="CV_LeenaPalsio.pdf"></iframe>
+        <iframe src={CV_LP} title="CV"></iframe>
       </div>
-
-      <div>
-        <object
-        data="https://drive.google.com/file/d/11KiZnxxEMyMhMj3Dp0MUNC74FDHNa3cx/view?usp=sharing"
-        type="application/pdf"
-        width="100%"
-        height="100%">
-          <a href="https://drive.google.com/file/d/11KiZnxxEMyMhMj3Dp0MUNC74FDHNa3cx/view?usp=sharing">Avaa PDF</a>
-      </object>
-      </div>
-
+        <a href={CV_LP} download>Lataa PDF</a>
       </body>
     );
 }
