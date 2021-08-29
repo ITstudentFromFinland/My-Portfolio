@@ -4,5 +4,19 @@
 
 .text-area {
     width: 650px;
-    height: 90px;
+    height: 220px;
+    position: relative;
+    left: 100px;
+}
+
+.linkedin, .github {
+    margin-left: 0px;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 900px;
+    top: -340px;
 }

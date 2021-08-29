@@ -2,36 +2,50 @@ import React from "react";
 
 import "./AboutMe.css";
 
+import profilePic from "../Images/profile.jpg";
+
 export default function AboutMe(props) {  
     
     return (
         <body><h1 class="about-me-header">Tietoa Minusta</h1>
 
-        <div class="general-information">
-            <table>
+        <br></br><br></br>
+
+                <table width="100%">
                 <tr>
                     <th>Nimi:</th>
-                    <th>Ikä:</th>
-                    <th>Syntymäpäivä:</th>
-                    <th>Asuinpaikka:</th>
-                    <th>Harrastukset:</th>
+                    <td>Leena Palsio</td>
                 </tr>
-
                 <tr>
-                    <th>Usagi Tsukino</th>
-                    <th>28</th>
-                    <th>6.4.1993</th>
-                    <th>Joensuu</th>
-                    <th>Laulaminen, ohjelmointi ja konsoliroolipelit</th>
+                    <th>Puhelin:</th>
+                    <td>040 5963074</td>
                 </tr>
+                <tr>
+                    <th>LinkedIn:</th>
+                    <td><a class="linkedin" href="https://www.linkedin.com/in/leena-palsio-19b36313b">www.linkedin.com/in/leena-palsio-19b36313b</a></td>
+                </tr>
+                <tr>
+                    <th>Github:</th>
+                    <td><a class="github" href="https://github.com/ITstudentFromFinland">www.github.com/ITstudentFromFinland</a></td>
+                </tr>
+                </table>
+               
+                <br></br>
 
-                <textarea class="text-area">Aamuisin herään yhdeksän maissa. Aloitan päiväni maukkaalla ja tukevalla aamiaisella ja
-                    virkistyslimpparilla. Aamiaisen jälkeen aloitan yleensä pelien pelaamisen. Pelaaminen kestää yleensä
-                    pesuun ja sitä kautta nukkumaanmenoon saakka, mutta syön tietenkin välillä kunnon lounaan. Nukkumaan
-                    menen arkipäivisin kymmeneltä ja viikonloppuisin yleensä keskiyöllä.
+                <table>
+                <tr>
+                    <th>
+                <textarea class="text-area" readOnly>Valmistuin tietojenkäsittelyn tradenomiksi Karelia-ammattikorkeakoulusta keväällä 2020.
+                                                     - kuka olen, millainen olen
+                                                     - mitä olen tehnyt, mitä haluan tehdä tulevaisuudessa
+                                                     - mitä osaan, miten kehitän osaamistani
                 </textarea>
+                    </th>
+                </tr>
             </table>
-        </div>
+
+            <img src={profilePic} />
+
         </body>
     );
 }
