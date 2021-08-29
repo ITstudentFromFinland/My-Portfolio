@@ -7,6 +7,8 @@ import AboutMe from "./Components/AboutMe";
 import CV from "./Components/CV";
 import Projects from "./Components/Projects";
 import Contact from "./Components//Contact/Contact.js";
+import Mobidogi from "./Components/Mobidogi.js";
+import TravelPlanner from "./Components/TravelPlanner.js";
 
 const Home = (props) => <header class="header"><h1>Tervetuloa portfoliooni!</h1></header>
 
@@ -20,6 +22,8 @@ function App() {
         <Route path="/my-cv"><CV /></Route>
         <Route path="/my-projects"><Projects /></Route>
         <Route path="/contact"><Contact /></Route>
+        <Route path="/mobidogi-gallery"><Mobidogi /></Route>
+        <Route path="/travelplanner-gallery"><TravelPlanner /></Route>
       </Switch>
     </Router>
   );
