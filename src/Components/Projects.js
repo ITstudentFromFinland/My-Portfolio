@@ -16,7 +16,8 @@ export default function Projects(props) {
                 <li><a href="https://github.com/ITstudentFromFinland/MobiDogi">MobiDogi</a> (Android-mobiilisovellus koirien ongelmakoulutukseen, opinnäytetyö) 
                 <a href="/mobidogi-gallery">Kuvagalleriaan</a></li>
             <br></br>
-                <li><a href="https://github.com/ITstudentFromFinland/bootcamp-finland-traveling-demo">Travel Planner</a> (Websovellus matkojen suunnitteluun ystävien kanssa, Code Bootcamp -demosovellus) </li>
+                <li><a href="https://github.com/ITstudentFromFinland/bootcamp-finland-traveling-demo">Travel Planner</a> (Websovellus matkojen suunnitteluun ystävien kanssa, Code Bootcamp -demosovellus)
+                <a href="/travelplanner-gallery">Kuvagalleriaan</a></li>
             <br></br>
                 <li><a href="https://github.com/ITstudentFromFinland/My-Portfolio">Portfolioni</a> (tämä websovellus)</li>
             </ul>
