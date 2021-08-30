@@ -44,7 +44,7 @@ export default function AboutMe(props) {
                 </tr>
             </table>
 
-            <img src={profilePic} />
+            <img src={profilePic} class="profile" />
 
         </body>
     );

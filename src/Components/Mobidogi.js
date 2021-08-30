@@ -15,13 +15,13 @@ export default function Mobidogi(props) {
     return (
         <body><h1>Galleria, Mobidogi</h1>
         <br></br>
-            <img src={register} />
-            <img src={login} />
-            <img src={loginError} />
-            <img src={frontpage} />
-            <img src={contact} />
-            <img src={emptyDiary} />
-            <img src={filledDiary} />
+            <img src={register} class="screenshot" title="rekisteröityminen" />
+            <img src={login} class="screenshot" title="kirjautuminen" />
+            <img src={loginError} class="screenshot" title="virhe kirjautumisessa" />
+            <img src={frontpage} class="screenshot" title="etusivu" />
+            <img src={contact} class="screenshot" title="yhteys kouluttajaan" />
+            <img src={emptyDiary} class="screenshot" title="tyhjä treenipäiväkirja" />
+            <img src={filledDiary} class="screenshot" title="täytetty treenipäiväkirja" />
         </body>
     );
 }
