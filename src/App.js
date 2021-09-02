@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'  
 import './App.css';
 
-import background from "./Images/YorkshireGirl.jpg"
+import background from "./Images/YorkshireGirl.jpg";
 
 import NavBar from "./Components/NavBar";
 import AboutMe from "./Components/AboutMe";
@@ -14,8 +14,8 @@ import TravelPlanner from "./Components/TravelPlanner.js";
 
 const Home = (props) => 
 <body>
-  <header class="header"><h1>Tervetuloa portfoliooni!</h1></header>
-  <img src={background} class="background" />
+<img src={background} className="bg"/>
+  <header className="header"><h1>Tervetuloa portfoliooni!</h1></header>
 </body>
 
 function App() {

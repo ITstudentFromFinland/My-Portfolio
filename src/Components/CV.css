@@ -6,3 +6,13 @@ iframe {
 a {
     margin-left: 20px;
 }
+
+.contained-button {
+    position: relative;
+    left: 20px;
+}
+
+.btn {
+    position: relative;
+    left: 30px;
+}

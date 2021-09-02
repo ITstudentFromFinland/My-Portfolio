@@ -1,8 +1,10 @@
 import React from "react";
+import Box from "@material-ui/core/Box";
 
 import "./AboutMe.css";
 
 import profilePic from "../Images/profile.jpg";
+import { Divider } from "@material-ui/core";
 
 export default function AboutMe(props) {  
     
@@ -15,6 +17,10 @@ export default function AboutMe(props) {
                 <tr>
                     <th>Nimi:</th>
                     <td>Leena Palsio</td>
+                </tr>
+                <tr>
+                    <th>Koulutus:</th>
+                    <td>Tietojenkäsittelyn ammattikorkeakoulututkinto, Tradenomi</td>
                 </tr>
                 <tr>
                     <th>Vahvuudet:</th>
@@ -39,11 +45,10 @@ export default function AboutMe(props) {
                 </table>
                
                 <br></br>
+                <Divider className="divider" />
+                <br></br>
 
-                <table>
-                <tr>
-                    <th>
-                <textarea class="text-area" readOnly>Valmistuin tietojenkäsittelyn tradenomiksi Karelia-ammattikorkeakoulusta keväällä 2020.
+                <Box class="text-area" readOnly>Valmistuin tietojenkäsittelyn tradenomiksi Karelia-ammattikorkeakoulusta keväällä 2020.
                                                      - hieman tietoa itsestä
                                                      - persoonallisuus ja taidot 
                                                      - kuka olen, millainen olen
@@ -60,10 +65,7 @@ export default function AboutMe(props) {
 
                                                     Myös asiakkailta tai kollegoilta saadut palautteet ja suositukset kannattaa tuoda esille portfoliossa.
                                                      - mitä osaan (uraa koskevat), miten kehitän osaamistani
-                </textarea>
-                    </th>
-                </tr>
-            </table>
+                </Box>
 
             <img src={profilePic} class="profile" />
 
