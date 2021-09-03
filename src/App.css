@@ -16,3 +16,11 @@
 .bg {
   width: 100%;
 }
+
+.frontpage-info {
+  position: absolute;
+  top: 140px;
+  left: 370px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}

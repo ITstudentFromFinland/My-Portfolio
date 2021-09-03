@@ -48,10 +48,11 @@ export default function AboutMe(props) {
                 <Divider className="divider" />
                 <br></br>
 
-                <Box class="text-area" readOnly>Valmistuin tietojenkäsittelyn tradenomiksi Karelia-ammattikorkeakoulusta keväällä 2020.
-                                                     - hieman tietoa itsestä
-                                                     - persoonallisuus ja taidot 
+                <Box class="text-area">Edellinen harjoittelu
+                    Valmistuin tietojenkäsittelyn tradenomiksi Karelia-ammattikorkeakoulusta keväällä 2020. Valmistumiseni jälkeen
+                                       hh
                                                      - kuka olen, millainen olen
+                                                     - persoonallisuus ja taidot 
                                                      - työhistoriasta ja koulutuksesta (+ kurssit)
                                                      - mitä olen tehnyt, mitä haluan tehdä tulevaisuudessa
                                                      (Kuhunkin kohtaan pitäisi sisällyttää myös lyhyt selite siitä, miten ne yhdistyvät CV:ssä esitettyihin taitoihin ja saavutuksiin.)

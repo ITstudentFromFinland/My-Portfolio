@@ -3,10 +3,15 @@ h1 {
 }
 
 .scrshot {
-    width: 45%;
-    height: 45%;
-    position: relative;
-    left: 15px;
-    top: 3px;
+    width: 12%;
+    height: 12%;
     margin: 15px;
+}
+
+.imageContainer > img:hover {
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    left: -10px;
+    top: 1px;
 }

@@ -1,5 +1,7 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'  
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { Box } from '@material-ui/core';
+import { Center } from '@chakra-ui/react';
 import './App.css';
 
 import background from "./Images/YorkshireGirl.jpg";
@@ -16,6 +18,13 @@ const Home = (props) =>
 <body>
 <img src={background} className="bg"/>
   <header className="header"><h1>Tervetuloa portfoliooni!</h1></header>
+
+  <Box p={4, 8, 4, 8} className="frontpage-info">
+    <h1>Leena Palsio</h1>
+    <Center><p>Junior Software Developer suurella kiinnostuksella front-end- ja fullstack-ohjelmointiin.
+      <br></br>
+       Vankkaa JavaScript- ja css-osaamista frontend-puolelta luottavaisella asenteella.</p></Center>
+  </Box>
 </body>
 
 function App() {
