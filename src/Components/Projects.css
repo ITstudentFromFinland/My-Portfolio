@@ -9,3 +9,7 @@ h3 {
 .demo-link, .mobidogi-link {
     margin-left: 20px;
 }
+
+.card-content {
+    background-color: turquoise;
+}

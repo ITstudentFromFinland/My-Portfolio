@@ -2,11 +2,19 @@
     text-align: center;
 }
 
+.info-table {
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .text-area {
-    width: 650px;
+    width: 855px;
     height: 220px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
     position: relative;
-    left: 100px;
+    left: 70px;
 }
 
 .linkedin, .github {
@@ -17,12 +25,12 @@
     width: 25%;
     height: 25%;
     position: relative;
-    left: 900px;
-    top: -380px;
+    left: 1020px;
+    top: -370px;
 }
 
 .divider {
     position: relative;
-    width: 720px;
-    left: 65px;
+    width: 920px;
+    left: 50px;
 }

@@ -11,20 +11,16 @@ export default function AboutMe(props) {
     return (
         <body><h1 class="about-me-header">Tietoa Minusta</h1>
 
-        <br></br><br></br>
+        <br></br>
 
-                <table width="100%">
-                <tr>
-                    <th>Nimi:</th>
-                    <td>Leena Palsio</td>
-                </tr>
-                <tr>
-                    <th>Koulutus:</th>
-                    <td>Tietojenkäsittelyn ammattikorkeakoulututkinto, Tradenomi</td>
-                </tr>
+                <table className="info-table">
                 <tr>
                     <th>Vahvuudet:</th>
                     <td>ongelmanratkaisutaidot, englanninkielen taito, nopea oppimaan, oma-aloitteisuus</td>
+                </tr>
+                <tr>
+                    <th>Ohjelmointitaidot:</th>
+                    <td>JavaScript, css, twig, front-end, WordPress</td>
                 </tr>
                 <tr>
                     <th>Puhelin:</th>
@@ -48,24 +44,23 @@ export default function AboutMe(props) {
                 <Divider className="divider" />
                 <br></br>
 
-                <Box class="text-area">Edellinen harjoittelu
-                    Valmistuin tietojenkäsittelyn tradenomiksi Karelia-ammattikorkeakoulusta keväällä 2020. Valmistumiseni jälkeen
-                                       hh
-                                                     - kuka olen, millainen olen
-                                                     - persoonallisuus ja taidot 
-                                                     - työhistoriasta ja koulutuksesta (+ kurssit)
-                                                     - mitä olen tehnyt, mitä haluan tehdä tulevaisuudessa
-                                                     (Kuhunkin kohtaan pitäisi sisällyttää myös lyhyt selite siitä, miten ne yhdistyvät CV:ssä esitettyihin taitoihin ja saavutuksiin.)
-                                                     Koulutustaustan ja työhistorian esittäminen ovat tärkeitä asioita, sillä suurin osa työnantajista 
-                                                    haluavat juuri nähdä nämä tiedot. Alasta ja koulutustaustasta riippumatta on tärkeätä kerätä 
-                                                    ura- ja koulutustietoja itselleen ja mahdolliselle työnantajalle. Työhistorian kirjoittamista 
-                                                    varten on hyvä kerätä paljon tietoa ja käydä läpi jokainen työhistoria yksityiskohtaisesti. On 
-                                                    myös hyvä säilyttää itselleen tärkeät materiaalit, jotka liittyvät työhistoriaan, sillä näiden 
-                                                    materiaalien säilyttäminen auttaa työhistorian osoittamista. Portfoliossa yleensä tuodaan 
-                                                    esille koulutus- ja uratiedot, mutta henkilökohtaisen työsuoritukseen liittyvät asiat unohdetaan helposti.
-
-                                                    Myös asiakkailta tai kollegoilta saadut palautteet ja suositukset kannattaa tuoda esille portfoliossa.
-                                                     - mitä osaan (uraa koskevat), miten kehitän osaamistani
+                <Box class="text-area">Code Bootcamp antoi lähtölaukauksen halulleni työllistyä sovelluskehittäjäksi, kun taas edellinen harjoitteluni Mediasignalilla 
+                                       opetti minulle, että minä todellakin kuulun työelämässä koodin taakse. 
+                                       <br></br><br></br>
+                                       Ensimmäinen kosketukseni koodaamiseen oli tietojenkäsittelyn tradenomikoulutukseni lopussa keväällä 2020, kun kehitin parissa 
+                                       kuukaudessa eräälle koirakouluttajalle Android-mobiilisovelluksen. Haaveissani oli tuolloin työllistyä sähköisen liiketoiminnan tehtäviin, 
+                                       mutta noin kuukauden tuloksettoman työnhaun jälkeen hakeuduin Code Bootcamp -ohjelmointikoulutukseen. Koulutuksessa kehitin 
+                                       demo-nettisovelluksen matkojen suunnitteluun oppien JavaScript-kielen ja css:n.
+                                       <br></br><br></br>
+                                       Code Bootcampin jälkeen pyrin Code Academyyn, mutta persoonallisuuteeni sopivaa yhteistyöyritystä ei löytynyt, aloin etsimään sovelluskehittäjän 
+                                       töitä. Työnhaun avuksi sain duuniagentin Luotsilta, minkä kautta pääsin loppuvuodeksi työkokeiluun Joensuun seurakunnan
+                                       digitointiprojektiin. Työkokeilu poiki minulle lyhyen määrä-aikaisen työsuhteen toimistosihteerinä digitointiprojektin 
+                                       loppuunviemiseksi.
+                                       <br></br><br></br>
+                                       Työsuhteen päätyttyä aktiivinen työnhaku jatkui ja Kuntakokeilu ohjasi minut hakeutumaan SpringHousen järjestämään Nuorten työelämästartti
+                                       -koulutukseen. Koulutukseen kuuluneen tyäharjoittelujakson suoritin Mediasignalilla, missä toimin frontend-kehittäjänä erilaisissa
+                                       nettisovellus- ja WordPress-projekteissa. Harjoittelun aikana käytin Chakra-ui- ja Material-ui -kirjastoja ja opin twig-kieltä.
+                                       Sain harjoittelusta positiivista palautetta muun muassa oma-aloitteisesta ja itsenäisestä asioihin perehtymisestä, sekä nopeasta oppimisesta.
                 </Box>
 
             <img src={profilePic} class="profile" />
