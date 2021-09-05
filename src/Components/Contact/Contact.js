@@ -2,7 +2,6 @@ import React from "react";
 import { Center } from "@chakra-ui/layout";
 
 import "./Contact.css";
-//import "./Contact.html";
 
 export default function Contact(props) {
  return (
