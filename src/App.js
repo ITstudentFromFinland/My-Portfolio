@@ -10,7 +10,7 @@ import NavBar from "./Components/NavBar";
 import AboutMe from "./Components/AboutMe";
 import CV from "./Components/CV";
 import Projects from "./Components/Projects";
-import Contact from "./Components//Contact/Contact.js";
+import Contact from "./Components/Contact/Contact.js"
 import Mobidogi from "./Components/Mobidogi.js";
 import TravelPlanner from "./Components/TravelPlanner.js";
 

@@ -1,80 +1,33 @@
+import React from "react";
+import { Center } from "@chakra-ui/layout";
+
 import "./Contact.css";
 //import "./Contact.html";
 
 export default function Contact(props) {
+ return (
+  <body>
+      <Center><h1 class="projects-header">Ota yhteyttä</h1></Center>
+      <br></br>
+  <div class="container">
+  <form action="action_page.php">
 
-    var fields = {};
+    <label for="fname">Etunimi</label>
+    <input type="text" id="fname" name="firstname" placeholder="etunimi"/>
 
-    document.addEventListener("DOMContentLoaded", function() {
-        fields.firstName = document.getElementById('firstName');
-        fields.lastName = document.getElementById('lastName');
-        fields.email = document.getElementById('email');
-        fields.address = document.getElementById('address');
-        fields.houseNumber = document.getElementById('houseNumber');
-        fields.country = document.getElementById('country');
-        fields.question = document.getElementById('question');
-    })
+    <label for="lname">Sukunimi</label>
+    <input type="text" id="lname" name="lastname" placeholder="sukunimi"/>
 
-    function isNotEmpty(value) {
-        if (value == null || typeof value == 'undefined') return false;
-        return (value.length > 0);
-    }
+    <label for="company">Yritys ja osoite</label>
+    <input type="text" id="company" name="company" placeholder="yritys ja osoite" />
 
-    function isNumber(num) {
-        return (num.length > 0) && !isNaN(num);
-    }
+    <label for="message">Viesti</label>
+    <textarea id="message" name="message" placeholder="kirjoita viestisi tähän..." className="message"></textarea>
 
-    function isEmail(email) {
-        let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-        return regex.test(String(email).toLowerCase());
-    }
+    <input type="submit" value="Lähetä"/>
 
-    function fieldValidation(field, validationFunction) {
-        if (field == null) return false;
-
-        let isFieldValid = validationFunction(field.value)
-        if (!isFieldValid) {
-            field.className = 'placeholderRed';
-        } else {
-            field.className = '';
-        }
-
-        return isFieldValid;
-    }
-
-    function isValid() {
-        var valid = true;
-
-        valid &= fieldValidation(fields.firstName, isNotEmpty);
-        valid &= fieldValidation(fields.lastName, isNotEmpty);
-        valid &= fieldValidation(fields.address, isNotEmpty);
-        valid &= fieldValidation(fields.country, isNotEmpty);
-        valid &= fieldValidation(fields.email, isEmail);
-        valid &= fieldValidation(fields.houseNumber, isNumber);
-        valid &= fieldValidation(fields.question, isNotEmpty);
-
-        return valid;
-    }
-
-    class User {
-        constructor(firstName, lastName, address, country, email, question) {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.address = address;
-            this.country = country;
-            this.email = email;
-            this.question = question;
-        }
-    }
-
-    function sendContact() {
-        if (isValid()) {
-            let usr = new User();
-
-            alert(`${usr.firstName} thanks for registering.`)
-
-        } else {
-            alert("There was an error")
-        }
-    }
+  </form>
+</div>
+</body>
+);
 }
