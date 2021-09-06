@@ -66,7 +66,7 @@ export default function AboutMe(props) {
                                        Sain harjoittelusta positiivista palautetta muun muassa oma-aloitteisesta ja itsenäisestä asioihin perehtymisestä, sekä nopeasta oppimisesta.
                 </Box>
 
-            <img src={profilePic} class="profile" />
+            <img src={profilePic} class="profile" alt="" />
 
         </body>
     );

@@ -34,27 +34,27 @@ export default function TravelPlanner(props) {
         <br></br>
         <Center><p>Kuvat suurentuvat raahaamalla hiiri niiden päälle</p></Center>
         <div className="imageContainer">
-            <img src={register1} class="scrshot" title="rekisteröityminen"/>
-            <img src={register2} class="scrshot" title="rekisteröityminen virheillä" />
-            <img src={registerUsedEmail} class="scrshot" title="sähköposti on jo käytössä" />
-            <img src={registerNotShowPassword} class="scrshot" title="salasana piilotettu" />
-            <img src={registerShowPassword} class="scrshot" title="salasana näkyvillä" />
-            <img src={usedEmail} class="scrshot" title="rekisteröityminen, sähköposti käytössä" />
-            <img src={login1} class="scrshot" title="kirjautuminen" />
-            <img src={login2} class="scrshot" title="kirjautuminen, väärä sähköposti" />
-            <img src={login3} class="scrshot" title="kirjautuminen, väärä salasana" />
-            <img src={frontpageEmpty} class="scrshot" title="etusivu, ei matkoja" />
-            <img src={addTravel} class="scrshot" title="luo matka, tyhjä" />
-            <img src={filledTravel} class="scrshot" title="luo matka, täytetty" />
-            <img src={frontpageAdded} class="scrshot" title="etusivu, matkoja lisätty" />
-            <img src={addedTravelOptions} class="scrshot" title="matkan asetukset" />
-            <img src={modifyTravel} class="scrshot" title="muokkaa matkaa" />
-            <img src={goTravelEmpty} class="scrshot" title="tyhjä aktiviteettilista" />
-            <img src={addActivitet} class="scrshot" title="lisää aktiviteetti" />
-            <img src={activitetDropdown} class="scrshot" title="aktiviteetti dropdown" />
-            <img src={filledActivitet} class="scrshot" title="täytetty aktiviteetti" />
-            <img src={activitets} class="scrshot" title="aktiviteettilista" />
-            <img src={pageNotFound} class="scrshot" title="matkaa ei löydy" />
+            <img src={register1} class="scrshot" title="rekisteröityminen" alt="" />
+            <img src={register2} class="scrshot" title="rekisteröityminen virheillä" alt="" />
+            <img src={registerUsedEmail} class="scrshot" title="sähköposti on jo käytössä" alt="" />
+            <img src={registerNotShowPassword} class="scrshot" title="salasana piilotettu" alt="" />
+            <img src={registerShowPassword} class="scrshot" title="salasana näkyvillä" alt="" />
+            <img src={usedEmail} class="scrshot" title="rekisteröityminen, sähköposti käytössä" alt="" />
+            <img src={login1} class="scrshot" title="kirjautuminen" alt="" />
+            <img src={login2} class="scrshot" title="kirjautuminen, väärä sähköposti" alt="" />
+            <img src={login3} class="scrshot" title="kirjautuminen, väärä salasana" alt="" />
+            <img src={frontpageEmpty} class="scrshot" title="etusivu, ei matkoja" alt="" />
+            <img src={addTravel} class="scrshot" title="luo matka, tyhjä" alt="" />
+            <img src={filledTravel} class="scrshot" title="luo matka, täytetty" alt="" />
+            <img src={frontpageAdded} class="scrshot" title="etusivu, matkoja lisätty" alt="" />
+            <img src={addedTravelOptions} class="scrshot" title="matkan asetukset" alt="" />
+            <img src={modifyTravel} class="scrshot" title="muokkaa matkaa" alt="" />
+            <img src={goTravelEmpty} class="scrshot" title="tyhjä aktiviteettilista" alt="" />
+            <img src={addActivitet} class="scrshot" title="lisää aktiviteetti" alt="" />
+            <img src={activitetDropdown} class="scrshot" title="aktiviteetti dropdown" alt="" />
+            <img src={filledActivitet} class="scrshot" title="täytetty aktiviteetti" alt="" />
+            <img src={activitets} class="scrshot" title="aktiviteettilista" alt="" />
+            <img src={pageNotFound} class="scrshot" title="matkaa ei löydy" alt="" />
             </div>
         </body>
     );

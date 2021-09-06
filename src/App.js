@@ -16,7 +16,7 @@ import TravelPlanner from "./Components/TravelPlanner.js";
 
 const Home = (props) => 
 <body>
-<img src={background} className="bg"/>
+<img src={background} className="bg" alt=""/>
   <header className="header"><h1 class="site-header">Tervetuloa portfoliooni!</h1></header>
 
   <Box p={4, 8, 4, 8} className="frontpage-info">

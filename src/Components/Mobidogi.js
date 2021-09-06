@@ -21,14 +21,14 @@ export default function Mobidogi(props) {
         <br></br>
         <Center><p>Kuvat suurentuvat raahaamalla hiiri niiden päälle</p></Center>
         <div className="screenshotContainer">
-            <img src={register} class="screenshot" title="rekisteröityminen" />
-            <img src={registerShortPassword} class="screenshot" title="rekisteröityminen, liian lyhyt salasana" />
-            <img src={login} class="screenshot" title="kirjautuminen" />
-            <img src={loginError} class="screenshot" title="virhe kirjautumisessa" />
-            <img src={frontpage} class="screenshot" title="etusivu" />
-            <img src={contact} class="screenshot" title="yhteys kouluttajaan" />
-            <img src={emptyDiary} class="screenshot" title="tyhjä treenipäiväkirja" />
-            <img src={filledDiary} class="screenshot" title="täytetty treenipäiväkirja" />
+            <img src={register} class="screenshot" title="rekisteröityminen" alt="" />
+            <img src={registerShortPassword} class="screenshot" title="rekisteröityminen, liian lyhyt salasana" alt="" />
+            <img src={login} class="screenshot" title="kirjautuminen" alt="" />
+            <img src={loginError} class="screenshot" title="virhe kirjautumisessa" alt="" />
+            <img src={frontpage} class="screenshot" title="etusivu" alt="" />
+            <img src={contact} class="screenshot" title="yhteys kouluttajaan" alt="" />
+            <img src={emptyDiary} class="screenshot" title="tyhjä treenipäiväkirja" alt="" />
+            <img src={filledDiary} class="screenshot" title="täytetty treenipäiväkirja" alt="" />
             </div>
         </body>
     );
