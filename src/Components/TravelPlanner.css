@@ -9,9 +9,9 @@ h1 {
 }
 
 .imageContainer > img:hover {
-    width: 55%;
-    height: 55%;
+    width: 70%;
+    height: 70%;
     position: absolute;
-    left: 300px;
+    left: 230px;
     top: 120px;
 }
