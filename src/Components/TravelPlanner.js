@@ -29,6 +29,7 @@ export default function TravelPlanner(props) {
     
     return (
         <body>
+        <br></br>
         <h1>Galleria, Travel Planner</h1>
         <br></br>
         <Center><p>Kuvat suurentuvat raahaamalla hiiri niiden päälle</p></Center>

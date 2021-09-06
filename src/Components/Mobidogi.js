@@ -15,7 +15,9 @@ import filledDiary from "../Images/diaryShow.jpg";
 export default function Mobidogi(props) {  
     
     return (
-        <body><h1>Galleria, Mobidogi</h1>
+        <body>
+            <br></br>
+            <h1>Galleria, Mobidogi</h1>
         <br></br>
         <Center><p>Kuvat suurentuvat raahaamalla hiiri niiden päälle</p></Center>
         <div className="screenshotContainer">
