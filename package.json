@@ -15,6 +15,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "emailjs-com": "^3.2.0",
     "filereader": "^0.10.3",
     "framer-motion": "^4.1.17",
     "http-proxy-middleware": "^1.0.1",
@@ -26,6 +27,9 @@
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "sweetalert2": "^11.1.4",
     "webpack-cli": "^4.8.0"
   },
   "scripts": {

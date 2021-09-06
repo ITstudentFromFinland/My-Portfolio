@@ -9,7 +9,10 @@ import { Divider } from "@material-ui/core";
 export default function AboutMe(props) {  
     
     return (
-        <body><h1 class="about-me-header">Tietoa Minusta</h1>
+        <body>
+            <br></br>
+            
+            <h1 class="about-me-header">Tietoa Minusta</h1>
 
         <br></br>
 

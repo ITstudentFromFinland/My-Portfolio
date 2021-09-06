@@ -5,6 +5,7 @@
 .header {
   position: absolute;
   width: 100%;
+  height: 80px;
   top: 30px;
   background-color: turquoise;
   color: blue;
@@ -13,8 +14,14 @@
   font-size: large;
 }
 
+.site-header {
+  position: absolute;
+  top: 23px;
+  left: 540px;
+}
+
 .bg {
-  width: 100%;
+  width: 1525px;
 }
 
 .frontpage-info {

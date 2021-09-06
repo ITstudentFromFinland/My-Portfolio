@@ -18,6 +18,7 @@ export default function Projects(props) {
     
     return (
         <body>
+          <br></br>
           <h1 class="projects-header">Projektit</h1>
 
         <br></br><br></br>
