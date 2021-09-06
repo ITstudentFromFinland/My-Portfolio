@@ -1,10 +1,12 @@
 .nav-bar {
     background-color: turquoise;
     overflow: auto;
+    height: 30px;
 }
 
 .nav-bar a{
     color: white;
+    font-size: 16px;
 }
 
 .nav-bar ul {
