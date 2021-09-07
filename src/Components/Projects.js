@@ -40,7 +40,7 @@ export default function Projects(props) {
         <div>
             <h3>Projektisovellusten esittelyihin</h3>
 
-            <Link href="https://github.com/ITstudentFromFinland/bootcamp-finland-traveling-demo" target="_blank">
+            <Link href="https://drive.google.com/file/d/1-iY2VnsroX3NoUY82ptCIFj8wa5dIfi7/view?usp=sharing" target="_blank">
             <Card className={classes.root}>
       <CardActionArea>
         <CardContent className="card-content">
@@ -55,7 +55,7 @@ export default function Projects(props) {
     </Card>
     </Link>
 
-    <Link href="https://github.com/ITstudentFromFinland/bootcamp-finland-traveling-demo" target="_blank">
+    <Link href="https://drive.google.com/file/d/1FEDP4XuOJ6eJkQoLutpUYHkPrSBlZKix/view?usp=sharing" target="_blank">
     <Card className={classes.root}>
       <CardActionArea>
         <CardContent className="card-content">
