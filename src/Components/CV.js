@@ -16,7 +16,7 @@ export default function CV(props) {
         <iframe src={CV_LP} title="CV"></iframe>
       </div>
       <br></br>
-        <a className="cv_download" href={CV_LP} download>Lataa PDF</a>
+        <a className="cv_download" href={CV_LP} download>Lataa CV (PDF)</a>
 
         <Button variant="contained" color="primary" className="contained-button"><a className="bootcamp-link" href={CodeBootcamp} target="_blank">Code Bootcamp -todistus</a></Button>
         <Button variant="outlined" color="primary" className="btn"><a href={Mediasignal} target="_blank">Mediasignal Harjoittelutodistus</a></Button>
