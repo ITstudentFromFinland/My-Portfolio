@@ -35,6 +35,9 @@ export default function Contact(props) {
   <body>
     <br></br>
       <Center><h1 class="projects-header">Ota yhteyttä</h1></Center>
+      <br></br>
+      <Center>Voit ottaa minuun yhteyttä työtarjousten tiimoilta tai kysyäksesi minusta lisää.</Center>
+      <Center>Yhteyttä voi ottaa myös sähköpostitse (leena.palsio@outlook.com) tai puhelimitse (040 596 3074).</Center>
       <br></br><br></br>
   <div class="container">
   <Form onSubmit={handleOnSubmit}>
@@ -59,7 +62,7 @@ export default function Contact(props) {
         <Form.Field
           id="form-input-control-last-name"
           control={Input}
-          label="Name"
+          label="Nimi"
           name="from_name"
           placeholder="Nimi"
           required

@@ -63,6 +63,8 @@ export default function AboutMe(props) {
                                        Työsuhteen päätyttyä aktiivinen työnhaku jatkui ja Kuntakokeilu ohjasi minut hakeutumaan SpringHousen järjestämään Nuorten työelämästartti
                                        -koulutukseen. Koulutukseen kuuluneen tyäharjoittelujakson suoritin Mediasignalilla, missä toimin frontend-kehittäjänä erilaisissa
                                        nettisovellus- ja WordPress-projekteissa. Harjoittelun aikana käytin Chakra-ui- ja Material-ui -kirjastoja ja opin twig-kieltä.
+                                       Minulle oli varattu paikka tulevasta projektista vakituisena työntekijänä harjoittelun jälkeen. Valitettavasti projekti kuitenkin peruuntui,
+                                       joten heillä ei ollutkaan toistaiseksi mahdollisuutta palkata minua.
                                        Sain harjoittelusta positiivista palautetta muun muassa oma-aloitteisesta ja itsenäisestä asioihin perehtymisestä, sekä nopeasta oppimisesta.
                 </Box>
 
